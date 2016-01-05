@@ -21,29 +21,17 @@ s.summary        =  "display different state of loading"
 s.description    = <<-DESC
 			a long description of StateView in markdown format.
 			DESC
-s.homepage       = "https://www.baidu.com"
 s.source        =  {:git =>"https://github.com/Chasingdreamboy/DLoadingView.git,:tag => "0.0.1"}
 s.source_files = "StateView.h"
 s.preserve_paths = "StateView.m"
-s.ios.development_target = '7.0'
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
                    DESC
 
   s.homepage     = "https://github.com/Chasingdreamboy/DLoadingView"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
+
+
   #
 
   s.license      = "MIT (example)"
@@ -60,10 +48,7 @@ s.ios.development_target = '7.0'
   #  profile URL.
   #
 
-  s.author             = { "Chasingdreamboy" => "email@address.com" }
-  # Or just: s.author    = "Chasingdreamboy"
-  # s.authors            = { "Chasingdreamboy" => "email@address.com" }
-  # s.social_media_url   = "http://twitter.com/Chasingdreamboy"
+  s.author             = { "Chasingdreamboy" => "15290411649@163.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -75,7 +60,7 @@ s.ios.development_target = '7.0'
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "7.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
