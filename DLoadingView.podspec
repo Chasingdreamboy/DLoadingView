@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
  s.author             = { "Chasingdreamboy" => "15290411649@163.com" }
  s.platform     = :ios, "7.0"
  s.source       = { :git => "https://github.com/Chasingdreamboy/DLoadingView.git", :tag => "0.0.1" }
- s.source_files  = "Classes", "Classes/**/*.{h,m}"
+ s.source_files  = "StateView", "StateView/**/*.{h,m}"
  s.exclude_files = "Classes/Exclude"
  s.requires_arc = true
 
