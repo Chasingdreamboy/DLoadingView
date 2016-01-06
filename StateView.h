@@ -12,7 +12,6 @@ typedef NS_ENUM(NSInteger, displayState)  {
     displayStateSuccess,
     displayStateFail
 };
-#test
 @interface StateView : UIView
 @property  (strong, nonatomic) UIColor *circleColor;
 @property (strong, nonatomic) UIColor *progressColor;
