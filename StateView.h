@@ -25,7 +25,7 @@ typedef NS_ENUM(NSInteger, displayState)  {
 
 @end
 
-
+//how to commit project, learn
 @interface AnimationView : UIView
 @property (strong, nonatomic) CAShapeLayer *circleLayer;
 @property (strong, nonatomic) CAShapeLayer *progressLayer;
